@@ -1,0 +1,20 @@
+- generic [ref=e20]:
+  - banner [ref=e21]:
+    - generic [ref=e22]:
+      - heading "🛒 Codemify Store" [level=1] [ref=e23] [cursor=pointer]
+      - navigation [ref=e24]:
+        - button "Products" [ref=e25] [cursor=pointer]
+        - button "Cart 1" [ref=e84] [cursor=pointer]:
+          - text: Cart
+          - generic [ref=e85]: "1"
+        - button "Logout" [ref=e27] [cursor=pointer]
+  - main [ref=e28]:
+    - generic [ref=e110]:
+      - heading "✅ Order Placed Successfully!" [level=3] [ref=e159]
+      - paragraph [ref=e160]: Thank you for your purchase. Your order has been confirmed.
+      - paragraph [ref=e161]:
+        - text: "Order Total:"
+        - strong [ref=e162]: $29.99
+      - button "Continue Shopping" [ref=e163] [cursor=pointer]
+  - contentinfo [ref=e82]:
+    - paragraph [ref=e83]: © 2025 Codemify Store - Demo Application for Testing
