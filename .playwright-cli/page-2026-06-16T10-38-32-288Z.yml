@@ -1,0 +1,16 @@
+- generic [ref=e20]:
+  - banner [ref=e21]:
+    - generic [ref=e22]:
+      - heading "🛒 Codemify Store" [level=1] [ref=e23] [cursor=pointer]
+      - navigation [ref=e24]:
+        - button "Products" [ref=e25] [cursor=pointer]
+        - button "Cart" [ref=e111] [cursor=pointer]
+        - button "Logout" [ref=e27] [cursor=pointer]
+  - main [ref=e28]:
+    - generic [ref=e87]:
+      - heading "Your Shopping Cart" [level=2] [ref=e89]
+      - generic [ref=e112]:
+        - paragraph [ref=e113]: Your cart is empty
+        - button "Continue Shopping" [ref=e114] [cursor=pointer]
+  - contentinfo [ref=e82]:
+    - paragraph [ref=e83]: © 2025 Codemify Store - Demo Application for Testing

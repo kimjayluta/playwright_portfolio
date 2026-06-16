@@ -1,0 +1,64 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - heading "🛒 Codemify Store" [level=1] [ref=e6] [cursor=pointer]
+      - navigation [ref=e7]:
+        - button "Products" [ref=e8] [cursor=pointer]
+        - button "Cart" [ref=e9] [cursor=pointer]
+        - button "Logout" [ref=e10] [cursor=pointer]
+  - main [ref=e11]:
+    - generic [ref=e12]:
+      - generic [ref=e13]:
+        - heading "Products" [level=2] [ref=e14]
+        - generic [ref=e15]: 6 items
+      - list [ref=e18]:
+        - listitem [ref=e19]:
+          - img "Codemify Backpack" [ref=e20]
+          - generic [ref=e21]:
+            - heading "Codemify Backpack" [level=3] [ref=e22]
+            - paragraph [ref=e23]: Carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+            - generic [ref=e24]:
+              - generic [ref=e25]: $29.99
+              - button "Add to Cart" [ref=e26] [cursor=pointer]
+        - listitem [ref=e27]:
+          - img "Codemify Bike Light" [ref=e28]
+          - generic [ref=e29]:
+            - heading "Codemify Bike Light" [level=3] [ref=e30]
+            - paragraph [ref=e31]: A red light isn't the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included.
+            - generic [ref=e32]:
+              - generic [ref=e33]: $9.99
+              - button "Add to Cart" [ref=e34] [cursor=pointer]
+        - listitem [ref=e35]:
+          - img "Codemify Bolt T-Shirt" [ref=e36]
+          - generic [ref=e37]:
+            - heading "Codemify Bolt T-Shirt" [level=3] [ref=e38]
+            - paragraph [ref=e39]: Get your testing superhero on with the Codemify bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt.
+            - generic [ref=e40]:
+              - generic [ref=e41]: $15.99
+              - button "Add to Cart" [ref=e42] [cursor=pointer]
+        - listitem [ref=e43]:
+          - img "Codemify Fleece Jacket" [ref=e44]
+          - generic [ref=e45]:
+            - heading "Codemify Fleece Jacket" [level=3] [ref=e46]
+            - paragraph [ref=e47]: It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office.
+            - generic [ref=e48]:
+              - generic [ref=e49]: $49.99
+              - button "Add to Cart" [ref=e50] [cursor=pointer]
+        - listitem [ref=e51]:
+          - img "Codemify Onesie" [ref=e52]
+          - generic [ref=e53]:
+            - heading "Codemify Onesie" [level=3] [ref=e54]
+            - paragraph [ref=e55]: Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won't unravel.
+            - generic [ref=e56]:
+              - generic [ref=e57]: $7.99
+              - button "Add to Cart" [ref=e58] [cursor=pointer]
+        - listitem [ref=e59]:
+          - img "Test.allTheThings() T-Shirt (Red)" [ref=e60]
+          - generic [ref=e61]:
+            - heading "Test.allTheThings() T-Shirt (Red)" [level=3] [ref=e62]
+            - paragraph [ref=e63]: This classic Codemify t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.
+            - generic [ref=e64]:
+              - generic [ref=e65]: $15.99
+              - button "Add to Cart" [ref=e66] [cursor=pointer]
+  - contentinfo [ref=e16]:
+    - paragraph [ref=e17]: © 2025 Codemify Store - Demo Application for Testing

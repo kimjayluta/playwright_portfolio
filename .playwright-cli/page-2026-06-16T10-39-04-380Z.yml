@@ -1,0 +1,35 @@
+- generic [ref=e20]:
+  - banner [ref=e21]:
+    - generic [ref=e22]:
+      - heading "🛒 Codemify Store" [level=1] [ref=e23] [cursor=pointer]
+      - navigation [ref=e24]:
+        - button "Products" [ref=e25] [cursor=pointer]
+        - button "Cart 1" [ref=e206] [cursor=pointer]:
+          - text: Cart
+          - generic [ref=e169]: "1"
+        - button "Logout" [ref=e27] [cursor=pointer]
+  - main [ref=e28]:
+    - generic [ref=e171]:
+      - heading "Your Shopping Cart" [level=2] [ref=e173]
+      - list [ref=e174]:
+        - listitem [ref=e187]:
+          - img "Codemify Bike Light" [ref=e188]
+          - generic [ref=e189]:
+            - heading "Codemify Bike Light" [level=3] [ref=e190]
+            - paragraph [ref=e191]: A red light isn't the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included.
+            - generic [ref=e192]: $9.99 × 1 = $9.99
+          - generic [ref=e193]:
+            - generic [ref=e194]:
+              - button "−" [ref=e195] [cursor=pointer]
+              - generic [ref=e196]: "1"
+              - button "+" [ref=e197] [cursor=pointer]
+            - button "Remove" [ref=e198] [cursor=pointer]
+      - generic [ref=e199]:
+        - generic [ref=e200]:
+          - generic [ref=e201]: "Total:"
+          - generic [ref=e202]: $9.99
+        - generic [ref=e203]:
+          - button "Continue Shopping" [ref=e204] [cursor=pointer]
+          - button "Proceed to Checkout" [ref=e205] [cursor=pointer]
+  - contentinfo [ref=e82]:
+    - paragraph [ref=e83]: © 2025 Codemify Store - Demo Application for Testing

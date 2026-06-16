@@ -1,0 +1,35 @@
+- generic [ref=e20]:
+  - banner [ref=e21]:
+    - generic [ref=e22]:
+      - heading "🛒 Codemify Store" [level=1] [ref=e23] [cursor=pointer]
+      - navigation [ref=e24]:
+        - button "Products" [ref=e25] [cursor=pointer]
+        - button "Cart 1" [ref=e110] [cursor=pointer]:
+          - text: Cart
+          - generic [ref=e85]: "1"
+        - button "Logout" [ref=e27] [cursor=pointer]
+  - main [ref=e28]:
+    - generic [ref=e87]:
+      - heading "Your Shopping Cart" [level=2] [ref=e89]
+      - list [ref=e90]:
+        - listitem [ref=e91]:
+          - img "Codemify Backpack" [ref=e92]
+          - generic [ref=e93]:
+            - heading "Codemify Backpack" [level=3] [ref=e94]
+            - paragraph [ref=e95]: Carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+            - generic [ref=e96]: $29.99 × 1 = $29.99
+          - generic [ref=e97]:
+            - generic [ref=e98]:
+              - button "−" [active] [ref=e99] [cursor=pointer]
+              - generic [ref=e100]: "1"
+              - button "+" [ref=e101] [cursor=pointer]
+            - button "Remove" [ref=e102] [cursor=pointer]
+      - generic [ref=e103]:
+        - generic [ref=e104]:
+          - generic [ref=e105]: "Total:"
+          - generic [ref=e106]: $29.99
+        - generic [ref=e107]:
+          - button "Continue Shopping" [ref=e108] [cursor=pointer]
+          - button "Proceed to Checkout" [ref=e109] [cursor=pointer]
+  - contentinfo [ref=e82]:
+    - paragraph [ref=e83]: © 2025 Codemify Store - Demo Application for Testing

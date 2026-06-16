@@ -1,0 +1,66 @@
+- generic [ref=e20]:
+  - banner [ref=e21]:
+    - generic [ref=e22]:
+      - heading "🛒 Codemify Store" [level=1] [ref=e23] [cursor=pointer]
+      - navigation [ref=e24]:
+        - button "Products" [ref=e25] [cursor=pointer]
+        - button "Cart 1" [ref=e206] [cursor=pointer]:
+          - text: Cart
+          - generic [ref=e169]: "1"
+        - button "Logout" [ref=e27] [cursor=pointer]
+  - main [ref=e28]:
+    - generic [ref=e280]:
+      - heading "Checkout" [level=2] [ref=e282]
+      - generic [ref=e283]:
+        - heading "Order Summary" [level=3] [ref=e284]
+        - generic [ref=e285]:
+          - generic [ref=e286]: Codemify Bike Light × 1
+          - generic [ref=e287]: $9.99
+        - generic [ref=e288]:
+          - generic [ref=e289]: "Total:"
+          - generic [ref=e290]: $9.99
+      - generic [ref=e291]:
+        - heading "Shipping Information" [level=3] [ref=e292]
+        - generic [ref=e293]:
+          - generic [ref=e294]:
+            - generic [ref=e295]: First Name *
+            - textbox "First Name *" [ref=e296]
+          - generic [ref=e297]:
+            - generic [ref=e298]: Last Name *
+            - textbox "Last Name *" [ref=e299]
+        - generic [ref=e300]:
+          - generic [ref=e301]: Email *
+          - textbox "Email *" [ref=e302]
+        - generic [ref=e303]:
+          - generic [ref=e304]: Address *
+          - textbox "Address *" [ref=e305]
+        - generic [ref=e306]:
+          - generic [ref=e307]:
+            - generic [ref=e308]: City *
+            - textbox "City *" [ref=e309]
+          - generic [ref=e310]:
+            - generic [ref=e311]: State *
+            - textbox "State *" [ref=e312]
+        - generic [ref=e313]:
+          - generic [ref=e314]: Zip Code *
+          - textbox "Zip Code *" [ref=e315]:
+            - /placeholder: 12345 or 12345-6789
+        - heading "Payment Information" [level=3] [ref=e316]
+        - generic [ref=e317]:
+          - generic [ref=e318]: Card Number *
+          - textbox "Card Number *" [ref=e319]:
+            - /placeholder: "1234567890123456"
+        - generic [ref=e320]:
+          - generic [ref=e321]:
+            - generic [ref=e322]: Expiry Date *
+            - textbox "Expiry Date *" [ref=e323]:
+              - /placeholder: MM/YY
+          - generic [ref=e324]:
+            - generic [ref=e325]: CVV *
+            - textbox "CVV *" [ref=e326]:
+              - /placeholder: "123"
+        - generic [ref=e327]:
+          - button "Cancel" [ref=e328] [cursor=pointer]
+          - button "Complete Order" [ref=e329] [cursor=pointer]
+  - contentinfo [ref=e82]:
+    - paragraph [ref=e83]: © 2025 Codemify Store - Demo Application for Testing

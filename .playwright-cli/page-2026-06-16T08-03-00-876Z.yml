@@ -1,0 +1,16 @@
+- generic [ref=e68]:
+  - generic [ref=e69]:
+    - heading "🛒 Codemify Store" [level=1] [ref=e70]
+    - paragraph [ref=e71]: Please login to continue
+  - generic [ref=e72]:
+    - textbox "Username" [ref=e73]
+    - textbox "Password" [ref=e74]
+    - button "Login" [ref=e75] [cursor=pointer]
+  - generic [ref=e76]:
+    - generic [ref=e77]:
+      - heading "Accepted usernames are:" [level=3] [ref=e78]
+      - paragraph [ref=e79]: standard_user
+      - paragraph [ref=e80]: locked_out_user
+    - generic [ref=e81]:
+      - heading "Password for all users:" [level=3] [ref=e82]
+      - paragraph [ref=e83]: my_secret_code
